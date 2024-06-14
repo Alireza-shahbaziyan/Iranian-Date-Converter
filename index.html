@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>DC</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="header_title ravi-bold">تبدیل تاریخ</div>
+			<div class="header_subtitle">Iranian Date Converter</div>
+		</header>
+		<main class="date_convert_forms">
+			<form class="date_convert_form" id="date_convert_form">
+				<div class="date_convert_form_title">انتخاب سال به میلادی</div>
+				<div class="date_convert_form_subtitle">
+					Select Gregorian date
+				</div>
+
+				<!-- years_convert_form_select -->
+				<select
+					class="date_convert_form_select"
+					id="years_convert_form_select">
+					
+				</select>
+				<!-- months_convert_form_select -->
+				<select
+					id="months_convert_form_select"
+					class="date_convert_form_select"></select>
+				<!-- days_convert_form_select -->
+				<select
+					id="days_convert_form_select"
+					class="date_convert_form_select"></select>
+
+				<div>
+					<div class="form_result_title">نتیجه به شمسی</div>
+					<div id="resultـcontent" class="form_result">1317/10/11 یکشنبه یازده دی</div>
+				</div>
+			</form>
+		</main>
+
+		<script type="module" src="/main.js"></script>
+		<script type="module" src="/service.js"></script>
+	</body>
+</html>

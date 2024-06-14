@@ -1,0 +1,98 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "ravi-regular";
+  src: url("./fonts/RaviFamily/Ravi-Regular.ttf");
+}
+@font-face {
+  font-family: "ravi-bold";
+  src: url("./fonts/RaviFamily/Ravi-Bold.ttf");
+}
+
+* {
+  font-family: "ravi-regular" !important;
+}
+
+.ravi-bold{
+  font-family: "ravi-bold" !important;
+}
+
+.header{
+  border: 1px solid black;
+  text-align: center;
+  
+}
+
+.header_title{
+  font-size: 4rem;
+}
+
+.header_subtitle{
+  font-family: Times, 'Times New Roman', serif;
+  font-size: 1.8rem;
+  color: #717070;
+}
+.date_convert_forms{
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+
+}
+.date_convert_form{
+  border: 1px solid #717070;
+  padding: 1rem;
+  background-color: antiquewhite;
+  width: 46%;
+  height: 50dvh;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.date_convert_form_title{
+  font-size: 1.5rem;
+}
+
+.date_convert_form_subtitle{
+  color: #717070;
+}
+.date_convert_form_input{
+  text-align: center;
+  height: 2.5rem;
+  width: 10rem;
+  font-size: x-large;
+  border-radius: 4px;
+  border: .5px solid black;
+
+}
+.date_convert_form_select{
+  text-align: center;
+  margin: 5px;
+  height: 2.5rem;
+  width: 10rem;
+  border-radius: 4px;
+  border: .5px solid black; 
+  font-size: x-large;
+}
+
+
+.form_result_title {
+ font-size: 1.7rem;
+ padding: 1rem;
+}
+.form_result{
+  padding: 1rem;
+  font-size: x-large;
+  background-color: #cbc7c7;
+  color: red;
+}
+
+
+
+@media screen and (max-width:844px) {
+  .date_convert_form{
+    flex-direction: column;
+  }
+}
